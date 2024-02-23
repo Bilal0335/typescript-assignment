@@ -1,3 +1,4 @@
+"use strict";
 // Personal Message: Store a person’s name in a variable, and print a message to that person. Your message should be simple, such as, “Hello Eric, would you like to learn some Python today?”
 // let personalName : string = "Eric"
 // console.log(`Hello ${personalName}, would you like to learn some Python today?`);
@@ -16,9 +17,9 @@
 // let message:string = `${famous_person} once said, ${quote}`
 // console.log(message);
 // Stripping Names: Store a person’s name, and include some whitespace characters at the beginning and end of the name. Make sure you use each character combination, "\t" and "\n", at least once. Print the name once, so the whitespace around the name is displayed. Then print the name after striping the white spaces.
-var person_Name = "\t\n   Jogn Doe   \t\n";
-console.log("Origional: ".concat(person_Name));
-console.log("Stripped: ".concat(person_Name.trim()));
+let person_Name = `\t\n   Jogn Doe   \t\n`;
+console.log(`Origional: ${person_Name}`);
+console.log(`Stripped: ${person_Name.trim()}`);
 // Number Eight: Write addition, subtraction, multiplication, and division operations that each result in the number 8. Be sure to enclose your operations in print statements to see the results.
 // You should create four lines that look like this:
 // console.log(5 + 3)
@@ -32,6 +33,8 @@ console.log(4 * 2);
 // Division operation resulting in 8
 console.log(64 / 8);
 // Favorite Number: Store your favorite number in a variable. Then, using that variable, create a message that reveals your favorite number. Print that message.
-var favorite_number = 4;
-console.log("My favorite number is ".concat(favorite_number.toString()));
+let favorite_number = 4;
+console.log(`My favorite number is ${favorite_number}`);
 // Adding Comments: Choose two of the programs you’ve written, and add at least one comment to each. If you don’t have anything specific to write because your programs are too simple at this point, just add your name and the current date at the top of each program file. Then write one sentence describing what the program does.
+//let array1: string [] = ['billa','akmal']
+//console.log('Array Length : '+array1.length);

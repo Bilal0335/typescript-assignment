@@ -165,34 +165,140 @@
 // • If the alien’s color isn’t green, print a statement that the player just earned 10 points.
 // • Write one version of this program that runs the if block and another that runs the else block.
 
+// Alien Colors #2
+
+// Define the alien's color
+let alienColor: string = "green";
+
+// Version that runs the if block
+if (alienColor === "green") {
+    console.log("The player just earned 5 points for shooting the alien.");
+} else {
+    console.log("The player just earned 10 points.");
+}
+
+// Version that runs the else block
+alienColor = "red"; // Changing the alien's color for the else block version
+if (alienColor === "green") {
+    console.log("The player just earned 5 points for shooting the alien.");
+} else {
+    console.log("The player just earned 10 points.");
+}
+
+
 // Alien Colors #3: Turn your if-else chain from Exercise 5-4 into an if-else chain.
 // • If the alien is green, print a message that the player earned 5 points.
-
 // • If the alien is yellow, print a message that the player earned 10 points.
-
 // • If the alien is red, print a message that the player earned 15 points.
-
 // • Write three versions of this program, making sure each message is printed for the appropriate color alien.
+
+// Alien is green (earns 5 points)
+// let alienColor: string = "green";
+
+// if (alienColor === "green") {
+//     console.log("The player earned 5 points.");
+// } else if (alienColor === "yellow") {
+//     console.log("The player earned 10 points.");
+// } else if (alienColor === "red") {
+//     console.log("The player earned 15 points.");
+// }
+
+// // Alien is yellow (earns 10 points)
+// let alienColor: string = "yellow";
+
+// if (alienColor === "green") {
+//     console.log("The player earned 5 points.");
+// } else if (alienColor === "yellow") {
+//     console.log("The player earned 10 points.");
+// } else if (alienColor === "red") {
+//     console.log("The player earned 15 points.");
+// }
+
+// // Alien is red (earns 15 points)
+// let alienColor: string = "red";
+
+// if (alienColor === "green") {
+//     console.log("The player earned 5 points.");
+// } else if (alienColor === "yellow") {
+//     console.log("The player earned 10 points.");
+// } else if (alienColor === "red") {
+//     console.log("The player earned 15 points.");
+// }
+
+
 
 // Stages of Life: Write an if-else chain that determines a person’s stage of life. Set a value for the variable age, and then:
 // • If the person is less than 2 years old, print a message that the person is a baby.
-
 // • If the person is at least 2 years old but less than 4, print a message that the person is a toddler.
-
 // • If the person is at least 4 years old but less than 13, print a message that the person is a kid.
-
 // • If the person is at least 13 years old but less than 20, print a message that the person is a teenager.
-
 // • If the person is at least 20 years old but less than 65, print a message that the person is an adult.
-
 // • If the person is age 65 or older, print a message that the person is an elder.
+
+// let age: number = 30; // Set the age of the person
+
+// if (age < 2) {
+//     console.log("The person is a baby.");
+// } else if (age >= 2 && age < 4) {
+//     console.log("The person is a toddler.");
+// } else if (age >= 4 && age < 13) {
+//     console.log("The person is a kid.");
+// } else if (age >= 13 && age < 20) {
+//     console.log("The person is a teenager.");
+// } else if (age >= 20 && age < 65) {
+//     console.log("The person is an adult.");
+// } else {
+//     console.log("The person is an elder.");
+// }
+
 
 // Favorite Fruit: Make a array of your favorite fruits, and then write a series of independent if statements that check for certain fruits in your array.
 // • Make a array of your three favorite fruits and call it favorite_fruits.
-
 // • Write five if statements. Each should check whether a certain kind of fruit is in your array. If the fruit is in your array, the if block should print a statement, such as You really like bananas!
+
+// Make an array of your three favorite fruits
+let favorite_fruits: string[] = ["banana", "apple", "mango"];
+
+// Check if specific fruits are in the array and print statements accordingly
+if (favorite_fruits.includes("banana")) {
+    console.log("You really like bananas!");
+}
+
+if (favorite_fruits.includes("apple")) {
+    console.log("You really like apples!");
+}
+
+if (favorite_fruits.includes("mango")) {
+    console.log("You really like mangoes!");
+}
+
+if (favorite_fruits.includes("orange")) {
+    console.log("You really like oranges!");
+} else {
+    console.log("You don't like oranges that much.");
+}
+
+if (favorite_fruits.includes("grapes")) {
+    console.log("You really like grapes!");
+} else {
+    console.log("You don't like grapes that much.");
+}
+
+
 
 // Hello Admin: Make a array of five or more usernames, including the name 'admin'. Imagine you are writing code that will print a greeting to each user after they log in to a website. Loop through the array, and print a greeting to each user:
 // • If the username is 'admin', print a special greeting, such as Hello admin, would you like to see a status report?
-
 // • Otherwise, print a generic greeting, such as Hello Eric, thank you for logging in again.
+
+// Make an array of five or more usernames, including 'admin'
+let usernames: string[] = ["admin", "alice", "bob", "charlie", "david"];
+
+// Loop through the array and print greetings to each user
+for (let username of usernames) {
+    if (username === "admin") {
+        console.log("Hello admin, would you like to see a status report?");
+    } else {
+        console.log(`Hello ${username}, thank you for logging in again.`);
+    }
+}
+

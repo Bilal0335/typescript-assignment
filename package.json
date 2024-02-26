@@ -1,0 +1,12 @@
+{
+  "name": "typescript-assignment",
+  "version": "1.0.0",
+  "description": "in this typescript file we solved all 45 asignment ogf Governor Sindh It Initative",
+  "main": "class01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Muhammad Bilal Hussain (Roll no: 00103106)",
+  "license": "ISC"
+}

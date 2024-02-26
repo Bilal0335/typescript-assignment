@@ -106,21 +106,21 @@
 // console.log(placesToVisit);
 // Dinner Guests: Working with one of the programs from Exercises 14 through 18, print a message indicating the number of people you are inviting to dinner.
 // Guests List
-let guests = ["Albert Einstein", "Nikola Tesla", "Isaac Newton"];
+// let guests: string[] = ["Albert Einstein", "Nikola Tesla", "Isaac Newton"];
 // Print message indicating the number of people invited to dinner
-console.log(`Number of people invited to dinner: ${guests.length}`);
+// console.log(`Number of people invited to dinner: ${guests.length}`);
 // Think of something you could store in a array. For example, you could make a list of mountains, rivers, countries, cities, languages, or anything else you’d like. Write a program that creates a list containing these items.
 // Define an array containing various items
-let items = [
-    "Mount Everest",
-    "Amazon River",
-    "France",
-    "New York City",
-    "English",
-    "Great Barrier Reef" // Reef
-];
-// Print the list of items
-console.log("List of items:");
-for (let item in items) {
-    console.log(item);
-}
+// let items: string[] = [
+//     "Mount Everest",   // Mountain
+//     "Amazon River",    // River
+//     "France",          // Country
+//     "New York City",   // City
+//     "English",         // Language
+//     "Great Barrier Reef" // Reef
+// ];
+// // Print the list of items
+// console.log("List of items:");
+// for (let item of items) {
+//     console.log(item);
+// }

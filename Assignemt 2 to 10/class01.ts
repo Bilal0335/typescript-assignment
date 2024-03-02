@@ -59,7 +59,3 @@ console.log('Array Length : '+array1.length);
 
 //let a:number = 15
 // console.log(a);
-
-
-
-export{}
